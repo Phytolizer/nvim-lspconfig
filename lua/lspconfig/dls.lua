@@ -7,7 +7,7 @@ local root_files = {
 
 configs.dls = {
   default_config = {
-    cmd = { vim.fn.getenv 'HOME' .. '/.dub/packages/.bin/dls-latest' },
+    cmd = { vim.fn.getenv 'HOME' .. '/.dub/packages/.bin/dls-latest/dls' },
     filetypes = { 'd' },
     root_dir = util.root_pattern(unpack(root_files)),
     single_file_support = false,
